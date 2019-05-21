@@ -4,7 +4,7 @@ import os
 import sys
 import shutil
 
-if len(sys.argv) < 3:
+if len(sys.argv) < 4:
 	print("Usage:python "+sys.argv[0]+" 配置文件 文件后缀  文件夹路径")
 	exit(1)
 

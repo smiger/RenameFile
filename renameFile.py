@@ -3,7 +3,7 @@
 import sys
 import os
 
-if len(sys.argv) < 2:
+if len(sys.argv) < 3:
 	print("Usage:"+sys.argv[0] + " 文件夹路径 前缀")
 	exit(1)
 
